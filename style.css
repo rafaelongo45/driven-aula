@@ -1,0 +1,535 @@
+@media (min-width: 481px) {
+  body {
+    font-family: "Encode Sans", sans-serif;
+    color: #2f3134;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  .logo-desktop {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo-mob {
+    display: none;
+  }
+
+  .g1 {
+    color: #c3170c;
+  }
+
+  .oglobo {
+    color: #1e4b9b;
+  }
+  .valor {
+    color: #006766;
+  }
+
+  .ge {
+    color: #07aa47;
+  }
+
+  .cartola {
+    color: #e3662b;
+  }
+
+  .globoplay {
+    color: #fb0735;
+  }
+
+  .dropz {
+    color: #ff75bb;
+  }
+
+  .gshow {
+    color: #ec7d00;
+  }
+
+  .gquem {
+    color: #323333;
+  }
+
+  .greceitas {
+    color: #a81d83;
+  }
+
+  .borda-cima {
+    height: 1px;
+    width: 100%;
+    background-color: #f5f6f7;
+    margin-bottom: 10px;
+  }
+
+  .borda {
+    height: 1px;
+    width: 100%;
+    background-color: #f5f6f7;
+    margin: 10px 0 30px 0;
+  }
+
+  .conteudo-borda {
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .conteudo-pagina {
+    width: 1250px;
+    height: 780px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .caixola {
+    width: 650px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .caixola div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .caixola img {
+    height: 110px;
+    width: 193px;
+    border-radius: 12px;
+  }
+  .caixola h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #c4160c;
+    margin-bottom: 30px;
+  }
+
+  .caixola h2 {
+    font-size: 18px;
+    color: #303134;
+    margin-bottom: 10px;
+  }
+
+  .borda-mob {
+    display: none;
+  }
+
+  .bordinha {
+    height: 1px;
+    width: 100%;
+    background-color: #ebedef;
+    margin: 25px 0 30px 0;
+  }
+
+  .caixinha {
+    height: fit-content;
+    width: 193px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .caixinha h1 {
+    margin: 10px 0;
+    width: fit-content;
+    font-size: 14px;
+    color: #c4170c;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+  }
+
+  .caixinha h2 {
+    font-size: 20px;
+    color: #2f3134;
+    height: auto;
+    width: 190px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    letter-spacing: -0.045em;
+  }
+
+  .caixinha h3 {
+    font-size: 13px;
+    color: #2f3134;
+    display: block;
+    width: 193px;
+    height: auto;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+  }
+
+  .borda-ver {
+    height: 750px;
+    width: 1px;
+    background-color: #ebedef;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .caixona {
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .caixona div {
+    height: auto;
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caixona img {
+    border-radius: 12px;
+    height: 128px;
+    width: 240px;
+    margin: auto;
+  }
+
+  .caixona h1 {
+    color: #16ae54;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .caixona h2 {
+    letter-spacing: -0.045em;
+    font-size: 20px;
+    color: #2f3134;
+    display: block;
+    width: 240px;
+    height: fit-content;
+    margin-bottom: 30px;
+    margin: 0px 10px;
+  }
+
+  .caixona h3 {
+    font-size: 14px;
+    color: #2f3134;
+    display: block;
+    width: 240px;
+    height: auto;
+    margin: 10px;
+    letter-spacing: -0.048em;
+  }
+
+  .caixota {
+    height: 780px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .caixota div {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .caixota img {
+    border-radius: 12px;
+    height: 128px;
+    width: 240px;
+    margin: 0px 10px;
+  }
+
+  .caixota h1 {
+    color: #ec8006;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  .caixota h2 {
+    letter-spacing: -0.045em;
+    font-size: 20px;
+    color: #2f3134;
+    display: block;
+    width: 240px;
+    height: fit-content;
+    margin-bottom: 30px;
+    margin: 0px 10px;
+  }
+
+  .caixota h3 {
+    font-size: 14px;
+    color: #2f3134;
+    display: block;
+    width: 240px;
+    height: auto;
+    margin: 10px;
+    letter-spacing: -0.048em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-family: "Encode Sans", sans-serif;
+    color: #2f3134;
+  }
+
+  a {
+    width: max-content;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  img {
+    max-width: 98%;
+  }
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mob {
+    width: 100%;
+    height: 57px;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .g1 {
+    color: #c3170c;
+  }
+
+  .oglobo {
+    color: #1e4b9b;
+  }
+  .valor {
+    color: #006766;
+  }
+
+  .ge {
+    color: #07aa47;
+  }
+
+  .cartola {
+    color: #e3662b;
+  }
+
+  .globoplay {
+    color: #fb0735;
+    display: none;
+  }
+
+  .dropz {
+    color: #ff75bb;
+    display: none;
+  }
+
+  .gshow {
+    color: #ec7d00;
+    display: none;
+  }
+
+  .gquem {
+    color: #323333;
+    display: none;
+  }
+
+  .greceitas {
+    color: #a81d83;
+    display: none;
+  }
+
+  .borda-cima {
+    height: 1px;
+    width: 100%;
+    background-color: #e6e6e6;
+    margin-bottom: 10px;
+  }
+
+  .borda {
+    height: 1px;
+    width: 100%;
+    background-color: #e6e6e6;
+    margin: 10px 0 30px 0;
+  }
+
+  .conteudo-borda {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .conteudo-pagina {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .caixola {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 10px;
+  }
+
+  .primeira-caixa {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+  }
+
+  .primeira-caixa h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #c4160c;
+    margin-bottom: 20px;
+  }
+
+  .primeira-caixa h2 {
+    font-size: 18px;
+    color: #c4160c;
+    margin-bottom: 10px;
+  }
+
+  .borda-mob {
+    height: 1px;
+    width: 100%;
+    background-color: #e6e6e6;
+    margin: 20px 0 20px 0;
+  }
+
+  .bordinha {
+    display: none;
+  }
+
+  .segunda-caixa {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caixinha img {
+    width: 120px;
+    height: 67px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 10px 20px 0;
+  }
+  .caixinha h1 {
+    display: none;
+  }
+  .caixinha h2 {
+    color: #cd150b;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+  }
+  .caixinha h3 {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #cd150b;
+    font-weight: 500;
+  }
+
+  .caixona {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 10px;
+  }
+
+  .caixuda img {
+    width: 120px;
+    height: 67px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin: 0 10px 20px 0;
+  }
+  .caixuda h1 {
+    display: none;
+  }
+  .caixuda h2 {
+    color: #06aa48;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+  }
+  .caixuda h3 {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #06aa48;
+    font-weight: 500;
+  }
+
+  .caixota {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin-left: 10px;
+  }
+
+  .caixula img {
+    width: 120px;
+    height: 67px;
+    border-radius: 12px;
+    flex-direction: row;
+    margin: 0 10px 20px 0;
+    float: left;
+  }
+  .caixula h1 {
+    display: none;
+  }
+  .caixula h2 {
+    color: #ff8203;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+  }
+  .caixula h3 {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ff8203;
+    font-weight: 500;
+  }
+}
